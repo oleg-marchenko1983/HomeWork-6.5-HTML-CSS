@@ -1,0 +1,133 @@
+
+body
+{
+    width: 600px;
+    margin: 0 auto;
+    position:relative;
+}
+table
+{
+    font: 13px Arial;
+
+    width: 600px;
+    margin-top: 20px;
+
+    border-collapse: collapse;
+    border-radius: 5px;
+
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+tbody tr td
+{
+    border-top: 1px solid lightgrey;
+}
+
+table th
+{
+    padding-left: 10px;
+    line-height: 55px;
+
+    text-align: left;
+}
+
+table tr td
+{
+    padding-left: 10px;
+    line-height: 40px;
+}
+.name
+{
+    color: red;
+}
+.add_goods
+{
+    font: bold 16px Arial;
+
+    width: 35px;
+    height: 30px;
+
+    color: white;
+    border: none;
+    background-color: red;
+}
+.delete_goods
+{
+    font: bold 11px Arial;
+
+    width: 70px;
+    height: 30px;
+
+    color: white;
+    border: none;
+    background-color: indianred;
+}
+.sum_goods
+{
+    font: bold 17px Arial;
+
+    margin: 30px 10px 4px 0;
+
+    text-align: right;
+
+    color: rgba(0, 0, 0, .6);;
+}
+.sum_total
+{
+    color: rgba(0, 0, 0, .87);
+}
+.sum_percent
+{
+    font: bold 15px Arial;
+
+    margin: 3px 10px 15px 0px;
+
+    text-align: right;
+
+    color: rgba(0, 0, 0, .42);
+}
+
+.buy_goods
+{
+    font: bold italic 16px Arial;
+
+    display: block;
+
+    width: 190px;
+    margin: 0 auto;
+    padding: 15px 0;
+
+    color: red;
+    border: none;
+    background-color: white;
+}
+
+    .close {
+    position: absolute;
+    right: -9px;
+    top: -13px;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #d9d1d1;
+    border-radius: 17px;
+    background-color: #343333;
+ }
+
+    .close:before, .close:after {
+    position: absolute;
+    left: 11px;
+    content: ' ';
+    top: 3px;
+    height: 19px;
+    width: 2px;
+    background-color: #fcf8f8;
+
+    }
+
+    .close:before {
+    transform: rotate(45deg);
+    }
+    .close:after {
+    transform: rotate(-45deg);
+    }
+

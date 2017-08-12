@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th>Название</th>
+        <th>Кол-во</th>
+        <th>Цена</th>
+        <th>Скидка</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>Итого</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="name">Медведь девочка</td>
+        <td>1 шт</td>
+        <td>300р.</td>
+        <td>50%</td>
+        <td> <button class="add_goods">+</button></td>
+        <td><button class="add_goods">-</button></td>
+        <td><button class="delete_goods">УДАЛИТЬ</button></td>
+        <td></td>
+        <td>300р.</td>
+    </tr>
+    <tr>
+        <td class="name">Динозавр</td>
+        <td>1 шт.</td>
+        <td>100р.</td>
+        <td>-</td>
+        <td> <button class="add_goods">+</button></td>
+        <td><button class="add_goods">-</button></td>
+        <td><button class="delete_goods">УДАЛИТЬ</button></td>
+        <td></td>
+        <td>100р.</td>
+    </tr>
+    <tr>
+        <td class="name">Семейный домик</td>
+        <td>1 шт.</td>
+        <td>10000р.</td>
+        <td>-</td>
+        <td> <button class="add_goods">+</button> </td>
+        <td><button class="add_goods">-</button></td>
+        <td><button class="delete_goods">УДАЛИТЬ</button></td>
+        <td></td>
+        <td>10000р.</td>
+    </tr><tr>
+        <td class="name">Весёлый горох</td>
+        <td>1 шт.</td>
+        <td>300р.</td>
+        <td>-</td>
+        <td><button class="add_goods">+</button> </td>
+        <td><button class="add_goods">-</button> </td>
+        <td><button class="delete_goods">УДАЛИТЬ</button></td>
+        <td></td>
+        <td>300р.</td>
+    </tr>
+        </tbody>
+        <tfoot>
+    <tr>
+    <td colspan="10">
+    <p class="sum_goods">4 шт. на сумму: <span class="sum_total">10 700 р.</span>
+    </p>
+    </tr>
+    </td>
+    <tr><td colspan="10"><p class="sum_percent">Сумма без скидки: 11 000 р. &#8212;</p></tr></td></td>
+
+    <tr><td colspan="9"><button class="buy_goods">перейти в корзину &rarr;</button></tr></td>
+</tfoot>
+</table>
+    <span class="close"></span>
+</body>
+</html>
